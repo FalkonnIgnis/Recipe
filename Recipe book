@@ -4,6 +4,9 @@
         <title>Project: Recipe book</title>
         <meta charset="utf-8">
         <style>
+        body {
+            background-color: rgb(255,225,184);
+        }
         </style>
     </head>
     <body>
@@ -13,11 +16,13 @@
         <h2>Contents:</h2>
         
         <ol>
-            <li><a href="brownie">Recipe #1</a></li>
+            <li><a href= "#brownie" >Recipe #1</a></li>
         </ol>
         
-        <h2 id="brownie">Recipe #1</h2>
         
+        <h2 id="brownie">Recipe #1</h2>
+        <h3>Brownie's!</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chocolate_brownies.jpg/1200px-Chocolate_brownies.jpg" alt = "Plate full of brownies" width = "203">
         <ul>
             <li>Time: 25m prep, 35m cook</li>
             <li>Serves: 183 calories</li>
@@ -69,7 +74,37 @@ To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, ho
             </tr>
             </tbody>
         </table>
-        
+        <h3> Frosting</h3>
+    <table>
+        <thead>
+        <tr>
+            <th> Ingredients</th>
+            <th> Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Butter,softened</td>
+                <td> 3 Tablespoons</td>
+            </tr>
+            <tr> 
+                <td> Cocoa powder, unsweetened</td>
+                <td> 3 Tablespoons</td>
+            </tr>
+            <tr>
+                <td>Honey</td>
+                <td>1 Tablespoon</td>
+            </tr>
+            <tr>
+                <td> Vanilla Extract</td>
+                <td> 1 Teaspoon</td>
+            </tr>
+            <tr>
+                <td>Confectioner's Sugar</td>
+                <td> 1 cup</td>
+            </tr>
+        </tbody>
+    </table>
         <p><strong>Step 1:</strong> Do something.
 </p>
         
